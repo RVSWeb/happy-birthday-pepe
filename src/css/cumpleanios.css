@@ -1,0 +1,512 @@
+/* 
+    Created on : 04-dic-2019, 17:22:29
+    Author     : RVS
+*/
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+.main-text {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.foto1 {
+  min-height: 100%;
+  background-image: url("../img/tarta-grande-1920x1155.jpg");
+}
+
+.foto2 {
+  background-image: url("../img/pepe-480x480.jpg");
+  min-height: 60%;
+}
+
+.foto3 {
+  min-height: 50%;
+  background-image: url("../img/celebration-1920x1280.jpg");
+}
+
+.foto4 {
+  min-height: 100%;
+  background-image: url("../img/pepe-625x960.jpg");
+}
+
+.foto1,
+.foto2,
+.foto3,
+.foto4 {
+  width: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.letrero,
+.letrero1,
+.letrero2,
+.letrero3,
+.letrero4 {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+}
+
+.letrero {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #fbfbfb;
+  font-size: 3em;
+  top: 50%;
+}
+
+.letrero2 {
+  font-family: 'Permanent Marker', cursive;
+  color: #ffbc00;
+  font-size: 3em;
+  top: 60%;
+  text-shadow: 2px -3px #000;
+}
+
+.letrero3 {
+  font-family: 'Permanent Marker', cursive;
+  color: #f00;
+  font-size: 4em;
+  font-weight: bolder;
+  ;
+  top: 68%;
+  text-shadow: 2px -3px #000;
+}
+
+.letrero4 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #ffbc00;
+  font-size: 250%;
+  top: 45%;
+}
+
+.letrero5 {
+  font-family: 'Permanent Marker', cursive;
+  color: #ffbc00;
+  font-size: 250%;
+  top: 45%;
+}
+
+section {
+  padding: 50px 80px;
+}
+
+.dark {
+  font-style: oblique;
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    background: #000;
+  }
+
+  .foto1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .foto2,
+  .foto3,
+  .foto4 {
+    width: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  .main-text {
+    font-family: 'Sacramento', cursive;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.5em;
+  }
+
+  section {
+    padding: 10%;
+  }
+
+  .main-text {
+    text-align: center;
+    width: 200px;
+    font-size: 4em;
+  }
+
+  .letrero {
+    font-size: 3em;
+    font-weight: bolder;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    font-size: 6em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .letrero2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+    font-size: 4.1em;
+  }
+
+  .letrero3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3.8em;
+  }
+
+  .letrero4 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+
+  .letrero5 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 7px -6px 2px #000;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  body {
+    background: #000;
+  }
+
+  h1,
+  h2,
+  .main-text {
+    font-family: 'Sacramento', cursive;
+  }
+
+  .main-text {
+    text-align: center;
+    width: 200px;
+    font-size: 4em;
+  }
+
+  .foto1 {
+    min-height: 100%;
+    background-image: url("../img/tarta-grande-1920x1155.jpg");
+  }
+
+  .foto2 {
+    background-image: url("../img/pepe-480x480.jpg");
+    min-height: 100%;
+  }
+
+  .foto3 {
+    min-height: 50%;
+    background-image: url("../img/celebration-1920x1280.jpg");
+  }
+
+  .foto4 {
+    min-height: 100%;
+    background-image: url("../img/pepe-625x960.jpg");
+  }
+
+  .foto1,
+  .foto3 {
+    width: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .foto2 {
+    width: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .foto4 {
+    width: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .letrero,
+  .letrero1,
+  .letrero2,
+  .letrero3,
+  .letrero4 {
+    width: 100%;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .letrero {
+    font-size: 3em;
+    font-weight: bolder;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    font-size: 6em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .letrero2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+    font-size: 4.1em;
+  }
+
+  .letrero3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3.8em;
+  }
+
+  .letrero4 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+
+  .letrero5 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 7px -6px 2px #000;
+  }
+
+  .letrero5 {
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 7px -6px 2px #000;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    background: #000;
+  }
+
+  .foto1 {
+    width: 100%;
+    background-image: url("../img/tarta-320x480.jpg");
+    position: relative;
+    opacity: 0.75;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  .main-text {
+    font-family: 'Sacramento', cursive;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.5em;
+  }
+
+  section {
+    padding: 10%;
+  }
+
+  .main-text {
+    text-align: center;
+    width: 200px;
+    font-size: 3em;
+  }
+
+  .letrero {
+    font-size: 3em;
+    font-weight: bolder;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .letrero2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+    font-size: 2.1em;
+  }
+
+  .letrero3 {
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.2em;
+  }
+
+  .letrero4 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+
+  .letrero5 {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 7px -6px 2px #000;
+  }
+
+  .foto4 {
+    width: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+  body {
+    background: #000;
+  }
+
+  .foto1 {
+    width: 100%;
+    background-image: url("../img/tarta-320x480.jpg");
+    position: relative;
+    opacity: 0.75;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  .main-text {
+    font-family: 'Sacramento', cursive;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.5em;
+  }
+
+  section {
+    padding: 10%;
+  }
+
+  .main-text {
+    text-align: center;
+    width: 200px;
+    font-size: 3em;
+  }
+
+  .letrero {
+    font-size: 3em;
+    font-weight: bolder;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000;
+  }
+
+  .letrero2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+    font-size: 2.1em;
+  }
+
+  .letrero3 {
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.1em;
+  }
+
+  .letrero4 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+
+  .letrero5 {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 7px -6px 2px #000;
+  }
+
+}
