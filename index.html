@@ -17,7 +17,8 @@ Ref :
   <meta name="theme-color" content="#4285f4">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" type="image/png" href="https://goo.gl/cais23" sizes="any">
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Sacramento&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Sacramento|Monoton&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -31,6 +32,10 @@ Ref :
   <div class="foto1">
     <div class="letrero">
       Pepe!!
+    </div>
+
+    <div class="letrero">
+      <span id="anios"></span>
     </div>
 
     <div class="letrero2">
@@ -50,7 +55,7 @@ Ref :
 
   <div class="foto2">
     <div class="letrero4">
-     Qué sigas siendo tan guapo y hombretón
+      Qué sigas siendo tan guapo y hombretón
     </div>
   </div>
 
@@ -74,6 +79,15 @@ Ref :
     </div>
   </div>
 
+  <script>
+
+    var anioActual = new Date().getFullYear(); // 2019
+    var anioNuevo = new Date().getFullYear() + 1; // 2020
+    var resto = 46 + (anioNuevo - anioActual);
+
+    document.getElementById('anios').innerHTML = resto;
+
+  </script>
 </body>
 
 </html>

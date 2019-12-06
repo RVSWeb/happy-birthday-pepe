@@ -11,6 +11,12 @@ html {
   text-align: center;
 }
 
+#anios {
+  color: #ffbc00;
+  font-family: 'Monoton', cursive;
+  text-shadow: 7px -4px 2px black;
+}
+
 .main-text {
   width: 100%;
   margin: 0 auto;
